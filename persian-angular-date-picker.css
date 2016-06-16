@@ -1,0 +1,75 @@
+﻿.b-date input[type=text] {
+    padding: 5px;
+}
+
+.b-date .date-picker {
+    border: 1px solid #C6BFD7;
+    font-size: 12px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #375170;
+    position: absolute;
+    z-index: 998;
+    height: 217px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+    .b-date .date-picker select {
+        padding: 1px 10px 1px 30px;
+        border: 1px solid #F5F5F5;
+        margin-bottom: 3px;
+        width: 100px;
+    }
+
+    .b-date .date-picker .goto-today {
+        border: 1px solid #f5f5f5;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 0 16px;
+        text-align: center;
+        width: 75px;
+    }
+
+        .b-date .date-picker .goto-today:hover {
+            background-color: #00a4ef;
+            cursor: pointer;
+            color: #fff;
+        }
+
+    .b-date .date-picker .picker-table {
+        width: 100%;
+    }
+
+        .b-date .date-picker .picker-table tr td {
+            padding: 5px;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .b-date .date-picker .picker-table thead tr td {
+            background-color: #e8f2fa;
+            font-size: 10px;
+        }
+
+        .b-date .date-picker .picker-table tbody tr td {
+            font-size: 14px;
+        }
+
+            .b-date .date-picker .picker-table tbody tr td:hover {
+                background-color: #e8f2fa;
+                cursor: pointer;
+            }
+
+        .b-date .date-picker .picker-table tbody tr .hollyday {
+            background-color: #ff6a00;
+            color: #fff;
+        }
+
+        .b-date .date-picker .picker-table tbody tr .selected-day {
+            background-color: #fb8b8b;
+            color: #fff;
+        }
