@@ -15,5 +15,9 @@ Open index.html file in project for demo.
         var app = angular.module('date-picker-demo', ['bizbank.angular']);
 - Use the directive:
         &lt;persian-angular-date-picker ng-model="model" date-change="change()" &gt;&lt;/persian-angular-date-picker&gt;
+
 ng-model: required
+
 date-change: optional
+
+Thanks to @AkbarTaghipour
