@@ -193,7 +193,6 @@
             });
             htmlTag.on('click', function (e) {
                 scope.hide();
-                return false;
             });
         },
         templateUrl: '/persian-angular-date-picker.html'
